@@ -14,10 +14,10 @@ See the GitHub project for more details.
                        DESC
   s.documentation_url = 'https://code.lionheart.software/LionheartCurrencyTextField/'
 
-  s.homepage         = 'https://github.com/lionheart/LionheartCurrencyTextField'
+  s.homepage         = 'https://github.com/asib/LionheartCurrencyTextField'
   s.license          = { :type => 'Apache 2.0', :file => 'LICENSE' }
   s.author           = { 'Dan Loewenherz' => 'dan@lionheartsw.com' }
-  s.source           = { :git => 'https://github.com/lionheart/LionheartCurrencyTextField.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/asib/LionheartCurrencyTextField.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/lionheartsw'
 
   s.ios.deployment_target = '10.3'

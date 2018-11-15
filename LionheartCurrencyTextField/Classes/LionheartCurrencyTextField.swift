@@ -60,7 +60,7 @@ open class LionheartCurrencyTextField: UITextField, UITextFieldIdentifiable, UIT
         return formatter
     }()
 
-    var locale: Locale? {
+    public var locale: Locale? {
         didSet {
             guard let locale = locale else { return }
             currencyFormatter.currencyCode = locale.currencyCode
